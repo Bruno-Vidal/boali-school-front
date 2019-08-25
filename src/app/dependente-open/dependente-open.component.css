@@ -1,0 +1,66 @@
+.profile{
+    position: absolute;
+    right: 84%;
+    top: 2.6%;
+
+}
+.text-cardapio{
+    position: absolute;
+    right: 39.7%;
+    top: 2.6%;
+
+    
+}
+
+.notification{
+
+    position: absolute;
+    left: 86%;
+    top: 2.6%;
+    
+}
+
+.btn-cardapio{
+    position: absolute;
+    left: 7.5%;
+    top: 10.8%;
+    
+}
+
+.btn-dependentes{
+
+    position: absolute;
+    right: 5.5%;
+    top: 7.5%;
+    
+}
+
+.box{
+    position: absolute;
+    left: 4%;
+    top: 26%;
+}
+
+.profile-dependente-img{
+    position: absolute;
+    left: 43%;
+    top: 22%;
+}
+
+
+.engajamento{
+    position: absolute;
+    left: 26%;
+    top: 46%;
+}
+
+.agenda1{
+    position: absolute;
+    right: 14%;
+    top: 65%;
+}
+.agenda2{
+    position: absolute;
+    right: 14%;
+    top: 80%;
+}

@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
   logar(){
     this.service.login(new LoginRequest(this.email,this.senha)).subscribe(response =>{
       localStorage.setItem("token",response);
-      this.routerlink.goToForCustumer(response.role)
+      this.routerlink.goToForCustumer(response.dashboard)
     },error => {
       // realizar evento de erro
       alert("Login invalido");

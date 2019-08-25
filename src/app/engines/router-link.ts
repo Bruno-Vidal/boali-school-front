@@ -1,6 +1,5 @@
 import {Injectable} from "@angular/core";
-import { Router } from '@angular/router';
-import {Role} from "../services/dto/role";
+import {Router} from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -10,20 +9,12 @@ export class RouterLink {
   }
 
   public goTo(rota:string){
+      console.log(rota);
     this.router.navigate([rota]);
 
   }
-  public goToForCustumer(role:Role){
-    console.log(role)
-    switch (role) {
-      case Role.DEPENDENTES:
-        this.goTo('/dashboard-dependentes');
-        break;
-      case Role.PARCEIROS:
-        this.goTo('/dashboard-parceiros');
-        break;
-      case Role.REPRESENTANTES:
-        this.goTo('/dashboard-representantes');
+
+    goToForCustumer(role: string) {
+      4
     }
-  }
 }

@@ -9,6 +9,10 @@ import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { IntroComponent } from './intro/intro.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
+import { DependentesComponent } from './dependentes/dependentes.component';
+import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
+import { MainDependenteComponent } from './main-dependente/main-dependente.component';
+import { CadastroDependenteComponent } from './cadastro-dependente/cadastro-dependente.component';
 import {FormsModule} from "@angular/forms";
 import { HttpClientModule } from '@angular/common/http';
 
@@ -22,6 +26,10 @@ import { HttpClientModule } from '@angular/common/http';
     IntroComponent,
     CardapioComponent,
 
+    DependentesComponent,
+    DependenteOpenComponent,
+    MainDependenteComponent,
+    CadastroDependenteComponent
   ],
     imports: [
         BrowserModule,

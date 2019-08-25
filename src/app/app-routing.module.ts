@@ -4,6 +4,10 @@ import { LoginComponent } from './login/login.component';
 import { IntroComponent } from './intro/intro.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
+import { DependentesComponent } from './dependentes/dependentes.component';
+import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
+import { MainDependenteComponent } from './main-dependente/main-dependente.component';
+import { CadastroDependenteComponent } from './cadastro-dependente/cadastro-dependente.component';
 
 const routes: Routes = [
   {
@@ -30,6 +34,25 @@ const routes: Routes = [
   {
     path: 'cardapio',
     component: CardapioComponent
+  },
+
+  {
+    path: 'dependentes',
+    component: DependentesComponent
+  },
+
+  {
+    path: 'dependentes-open',
+    component: DependenteOpenComponent
+  },
+
+  {
+    path: 'main-dependente',
+    component: MainDependenteComponent
+  },
+  {
+    path: 'cadastro-dependente',
+    component: CadastroDependenteComponent
   },
 
   {
