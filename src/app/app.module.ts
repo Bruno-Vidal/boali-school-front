@@ -13,6 +13,7 @@ import { DependentesComponent } from './dependentes/dependentes.component';
 import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
 import { MainDependenteComponent } from './main-dependente/main-dependente.component';
 import { CadastroDependenteComponent } from './cadastro-dependente/cadastro-dependente.component';
+import { MainParceiroComponent } from './main-parceiro/main-parceiro.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { CadastroDependenteComponent } from './cadastro-dependente/cadastro-depe
     DependentesComponent,
     DependenteOpenComponent,
     MainDependenteComponent,
-    CadastroDependenteComponent
+    CadastroDependenteComponent,
+    MainParceiroComponent,
+
   ],
   imports: [
     BrowserModule,
