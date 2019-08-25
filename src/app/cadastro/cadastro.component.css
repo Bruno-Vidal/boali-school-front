@@ -1,0 +1,38 @@
+.form {
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 25px;
+    background-color: #ffffff;
+}
+
+.area {
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.cabecalho {
+    margin-left: 10%;
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+
+.termo {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.confirmar {
+    margin-top: 20px;
+    float: right;
+}
+
+.rodape {
+    width: 80%;
+    margin-left: 10%;
+}

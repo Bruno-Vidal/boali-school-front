@@ -1,0 +1,73 @@
+.profile{
+    position: absolute;
+    right: 84%;
+    top: 2.6%;
+
+}
+.text-cardapio{
+    position: absolute;
+    right: 39.7%;
+    top: 2.6%;
+
+    
+}
+
+.notification{
+
+    position: absolute;
+    left: 86%;
+    top: 2.6%;
+    
+}
+
+.btn-cardapio{
+    position: absolute;
+    left: 7.5%;
+    top: 10.8%;
+    
+}
+
+.btn-dependentes{
+
+    position: absolute;
+    right: 5.5%;
+    top: 7.5%;
+    
+}
+
+.s1{
+    position: absolute;
+    left: 7.5%;
+    top: 21.3%;
+}
+
+.s2{
+    position: absolute;
+    right: 7.5%;
+    top: 21.3%;
+}
+
+
+.s3{
+    position: absolute;
+    right: 7.5%;
+    top: 48%;
+}
+
+.s4{
+    position: absolute;
+    left: 7.5%;
+    top: 48%;
+}
+
+.s5{
+    position: absolute;
+    right: 7.5%;
+    top: 75%;
+}
+
+.s6{
+    position: absolute;
+    left: 7.5%;
+    top: 75%;
+}

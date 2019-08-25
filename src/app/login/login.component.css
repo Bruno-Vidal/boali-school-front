@@ -1,0 +1,57 @@
+  .form {
+      margin-top: 20px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 80%;
+      height: 25px;
+      background-color: #ffffff;
+  }
+
+  .area {
+      font-size: 12px;
+      margin-left: 5%;
+
+  }
+
+  .cabecalho {
+      margin-left: 7.5%;
+      margin-right: 37.1%;
+      margin-top: 30%;
+      margin-bottom: 20%;
+  }
+
+  .termo {
+      width: 80%;
+      margin-left: 10%;
+      font-size: 12px;
+
+  }
+
+  .confirmar {
+
+      margin-top: 50%;
+      margin-left: 47%;
+
+
+  }
+
+  .google {
+      padding-right: 1%
+  }
+
+
+
+  .sociais {
+      margin-left: 7.5%;
+      margin-bottom: 10%;
+  }
+
+  .rodape {
+      width: 80%;
+      margin-left: 10%;
+  }
+
+  .form-login {
+      margin-bottom: 20%;
+  }
