@@ -13,6 +13,7 @@ import { DependentesComponent } from './dependentes/dependentes.component';
 import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
 import { MainDependenteComponent } from './main-dependente/main-dependente.component';
 import { CadastroDependenteComponent } from './cadastro-dependente/cadastro-dependente.component';
+import { MainParceiroComponent } from './main-parceiro/main-parceiro.component';
 import {FormsModule} from "@angular/forms";
 import { HttpClientModule } from '@angular/common/http';
 
@@ -29,7 +30,9 @@ import { HttpClientModule } from '@angular/common/http';
     DependentesComponent,
     DependenteOpenComponent,
     MainDependenteComponent,
-    CadastroDependenteComponent
+    CadastroDependenteComponent,
+    MainParceiroComponent,
+
   ],
     imports: [
         BrowserModule,

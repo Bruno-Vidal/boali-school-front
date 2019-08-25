@@ -8,6 +8,8 @@ import { DependentesComponent } from './dependentes/dependentes.component';
 import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
 import { MainDependenteComponent } from './main-dependente/main-dependente.component';
 import { CadastroDependenteComponent } from './cadastro-dependente/cadastro-dependente.component';
+import { MainParceiroComponent } from './main-parceiro/main-parceiro.component';
+
 
 const routes: Routes = [
   {
@@ -53,6 +55,11 @@ const routes: Routes = [
   {
     path: 'cadastro-dependente',
     component: CadastroDependenteComponent
+  },
+
+  {
+    path: 'main-parceiro',
+    component: MainParceiroComponent
   },
 
   {

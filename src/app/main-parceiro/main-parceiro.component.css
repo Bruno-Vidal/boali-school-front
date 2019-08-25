@@ -20,18 +20,18 @@
     
 }
 
-.btn-cardapio{
+.btn-lotes{
     position: absolute;
     left: 7.5%;
     top: 10.8%;
     
 }
 
-.btn-dependentes{
+.btn-validar{
 
     position: absolute;
     right: 5.5%;
-    top: 13.9%;
+    top: 7.5%;
     
 }
 
@@ -41,26 +41,14 @@
     top: 26%;
 }
 
-.profile-dependente-img{
+.box2{
     position: absolute;
-    left: 43%;
-    top: 22%;
+    left: 4%;
+    top: 58%;
 }
 
-
-.engajamento{
+.card-parceiro{
     position: absolute;
-    left: 26%;
-    top: 46%;
-}
-
-.agenda1{
-    position: absolute;
-    right: 14%;
-    top: 65%;
-}
-.agenda2{
-    position: absolute;
-    right: 14%;
-    top: 80%;
+    left: 4%;
+    top: 30%;
 }
