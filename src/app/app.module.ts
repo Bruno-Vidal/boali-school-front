@@ -8,6 +8,7 @@ import { SloganComponent } from './slogan/slogan.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { IntroComponent } from './intro/intro.component';
+import { CardapioComponent } from './cardapio/cardapio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { IntroComponent } from './intro/intro.component';
     SloganComponent,
     LoginComponent,
     CadastroComponent,
-    IntroComponent
+    IntroComponent,
+    CardapioComponent
   ],
   imports: [
     BrowserModule,
