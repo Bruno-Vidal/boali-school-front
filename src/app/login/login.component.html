@@ -1,65 +1,81 @@
-<div class="container mt-3">
-  <div class="row">
-    <div class="col">
-      <h2>Exemplo de componentes</h2>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Ação 1</a>
-          <a class="dropdown-item" href="#">Ação 2</a>
-          <a class="dropdown-item" href="#">Ação 3</a>
-        </div>
+<style>
+  .form{
+    margin-top:20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 25px;
+    background-color: #ffffff;
+  }
+  .area{
+    font-size: 12px;
+    margin-left:5%;
+   
+  }
+  .cabecalho{
+    margin-left:7.5%;
+    margin-right:37.1%;
+    margin-top: 30%;
+    margin-bottom: 20%;
+  }
+  .termo{
+    width: 80%;
+    margin-left:10%;
+    font-size: 12px;
+    
+  }
+  .confirmar{
+
+    margin-top: 50%;
+    margin-left: 47%;
+   
+    
+  }
+
+  .google{
+    padding-right: 1%
+  }
+
+
+
+  .sociais{
+    margin-left: 7.5%;
+    margin-bottom: 10%;
+  }
+
+  .rodape{
+    width: 80%;
+    margin-left:10%;
+  }
+
+  .form-login{
+    margin-bottom: 20%;
+  }
+
+  </style>
+  
+  <header class="cabecalho">
+    <img src="https://trello-attachments.s3.amazonaws.com/5d619df7e4e53a53ad7b92d4/5d6227e5f947527d2add2399/2f877d7fe01fce61ffee8223300a3d89/Fazer_Login.svg" alt="" srcset="">
+  </header>
+  
+  <main>
+    <form action="/action_page.php" class="form-login">
+      <div class="area">
+        Email:<br>
+        <input type="text" class="form" name="Email">
       </div>
-    </div>
-  </div>
-
-  <div class="row mt-1">
-    <div class="col">
-      <div class="alert alert-primary alert-dismissible fade show" role="alert">
-        <strong>Exemplo de alerta</strong> o botão de fechar funciona.
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="area">
+      Senha:<br>
+      <input type="password" class="form" name="Senha">
       </div>
-    </div>
-  </div>
-
-  <div class="row mt-5">
-    <div class="col">
-      <h2>Exemplo de formulário</h2>
-      <form>
-        <div class="form-group">
-          <label>Texto</label>
-          <input type="text" class="form-control" placeholder="Placeholder campo texto">
-        </div>
-
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input">
-          <label class="form-check-label">Checkbox</label>
-        </div>
-
-        <div class="form-group">
-          <label>Combobox</label>
-          <select class="form-control">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Textarea</label>
-          <textarea class="form-control" rows="3"></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Salvar</button>
-        <button type="submit" class="btn btn-default ml-2">Cancelar</button>
-      </form>
-    </div>
-  </div>
-</div>
+      <div class="confirmar">
+          <input type=image src="https://trello-attachments.s3.amazonaws.com/5d619df7e4e53a53ad7b92d4/5d622897a1258b18a528611c/be608fa381dba188e7d63d133abbbf06/confirmar.svg"> 
+      </div>
+    </form>
+      <div class="sociais">
+          <img class=".google" src="https://trello-attachments.s3.amazonaws.com/5d619df7e4e53a53ad7b92d4/5d6227e5f947527d2add2399/881c94b1d925b833501e5fe01a878404/google.svg" />
+      
+          <img src="https://trello-attachments.s3.amazonaws.com/5d619df7e4e53a53ad7b92d4/5d6227e5f947527d2add2399/56aae5830d4f9555f680d989df658bff/facebook.svg" />
+      </div>
+  </main>
