@@ -71,15 +71,11 @@ const routes: Routes = [
     path: 'dashboard-parceiros',
     component: CardapioComponent
   },
-
   {
     path: 'dashboard-dependentes',
     component: CardapioComponent
   }
 ]
-
-
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

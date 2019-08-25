@@ -2,6 +2,7 @@ import {Component, Input, OnInit} from '@angular/core';
 import {LoginService} from "../services/login.service";
 import {LoginRequest} from "../services/dto/login-request";
 import {RouterLink} from "../engines/router-link";
+import {Config} from "../services/config";
 
 @Component({
   selector: 'app-login',
@@ -14,7 +15,7 @@ export class LoginComponent implements OnInit {
   @Input()
   senha;
   img: string = "https://trello-attachments.s3.amazonaws.com/5d619df7e4e53a53ad7b92d4/5d622897a1258b18a528611c/be608fa381dba188e7d63d133abbbf06/confirmar.svg";
-  constructor(private service: LoginService, private routerlink:RouterLink) { }
+  constructor(private service: LoginService, private routerlink:RouterLink,private config:Config) { }
 
   ngOnInit() {
   }
@@ -22,6 +23,7 @@ export class LoginComponent implements OnInit {
   logar(){
     this.service.login(new LoginRequest(this.email,this.senha)).subscribe(response =>{
       localStorage.setItem("token",response);
+      this.config.BASE_HEADERS.headers.append("Authorization","Bearer "+response.token)
       this.routerlink.goToForCustumer(response.dashboard)
     },error => {
       // realizar evento de erro

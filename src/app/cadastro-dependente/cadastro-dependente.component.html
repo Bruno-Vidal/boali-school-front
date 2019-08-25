@@ -5,26 +5,29 @@
 </header>
 
 <main>
-  <form action="/action_page.php">
+  <div class="comp-menu" (click)="telaCardapio()" >
+  </div>
+
+  <form >
     <div class="area">
       Nome:<br>
-      <input type="text" class="form" name="nome">
+      <input type="text" class="form" name="nome" [(ngModel)]="nome">
     </div>
     <div class="area">
       Data de Nascimento:<br>
-      <input type="password" class="form" name="dt_nascimento">
+      <input type="text" class="form" name="dt_nascimento" [(ngModel)]="dt_nascimento">
     </div>
     <div class="area">
       Email:<br>
-      <input type="password" class="form" name="email">
+      <input type="email" class="form" name="email" [(ngModel)]="email">
     </div>
     <div class="area">
       Senha:<br>
-      <input type="password" class="form" name="email">
+      <input type="password" class="form" name="senha" [(ngModel)]="senha">
     </div>
     <div class="area">
       Confirma Senha:<br>
-      <input type="password" class="form" name="email">
+      <input type="password" class="form" name="confirma_senha" [(ngModel)]="confirma_senha">
     </div>
     <div class="termo">
       <p>
@@ -32,7 +35,7 @@
       </p>
     </div>
     <div class="confirmar">
-      <input type=image
+      <input (click)="cadastrarDependente()"type=image
         src="https://trello-attachments.s3.amazonaws.com/5d619df7e4e53a53ad7b92d4/5d622897a1258b18a528611c/be608fa381dba188e7d63d133abbbf06/confirmar.svg">
     </div>
   </form>

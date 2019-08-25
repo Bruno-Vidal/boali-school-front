@@ -8,13 +8,13 @@ export class RouterLink {
   constructor(private router:Router){
   }
 
-  public goTo(rota:string){
-      console.log(rota);
+  public goTo(rota:string) {
     this.router.navigate([rota]);
-
   }
 
-    goToForCustumer(role: string) {
-      4
-    }
+  public goToForCustumer(role: string) {
+    if('REPRESENTANTES' === role)this.goTo('dashboard-representantes');
+    if('DEPENDENTES' === role)this.goTo('dashboard-dependentes');
+    if('PARTICIPANTES' === role)this.goTo('dashboard-participante');
+  }
 }

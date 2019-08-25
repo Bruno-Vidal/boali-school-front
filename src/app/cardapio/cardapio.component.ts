@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {RouterLink} from "../engines/router-link";
 
 @Component({
   selector: 'app-cardapio',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardapioComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:RouterLink) { }
 
   ngOnInit() {
+  }
+
+  telaDependentes() {
+    this.router.goTo('cadastro-dependente')
   }
 
 }

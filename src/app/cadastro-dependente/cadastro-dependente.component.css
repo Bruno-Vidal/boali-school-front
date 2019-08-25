@@ -16,7 +16,7 @@
 
 .cabecalho {
     margin-left: 10%;
-    margin-top: 30%;
+    margin-top: 15%;
     margin-bottom: 20%;
 }
 
@@ -37,3 +37,19 @@
     width: 80%;
     margin-left: 10%;
 }
+.comp-menu{
+    background: url("../../assets/img/menu-dependentes.svg") no-repeat ;
+    background-position-y: -20px;
+    width: 100%;
+    padding: 30px;
+    min-height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.comp-menu:first-child.comp-menu:last-child{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+
