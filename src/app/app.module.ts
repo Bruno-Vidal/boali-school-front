@@ -12,6 +12,7 @@ import { CardapioComponent } from './cardapio/cardapio.component';
 import { DependentesComponent } from './dependentes/dependentes.component';
 import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
 import { MainDependenteComponent } from './main-dependente/main-dependente.component';
+import { CadastroDependenteComponent } from './cadastro-dependente/cadastro-dependente.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MainDependenteComponent } from './main-dependente/main-dependente.compo
     CardapioComponent,
     DependentesComponent,
     DependenteOpenComponent,
-    MainDependenteComponent
+    MainDependenteComponent,
+    CadastroDependenteComponent
   ],
   imports: [
     BrowserModule,
