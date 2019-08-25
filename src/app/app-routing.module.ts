@@ -6,6 +6,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
 import { DependentesComponent } from './dependentes/dependentes.component';
 import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
+import { MainDependenteComponent } from './main-dependente/main-dependente.component';
 
 const routes: Routes = [
   {
@@ -42,6 +43,11 @@ const routes: Routes = [
   {
     path: 'dependentes-open',
     component: DependenteOpenComponent
+  },
+
+  {
+    path: 'main-dependente',
+    component: MainDependenteComponent
   }
 ]
 

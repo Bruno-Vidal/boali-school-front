@@ -1,0 +1,42 @@
+.profile{
+    position: absolute;
+    right: 84%;
+    top: 2.6%;
+
+}
+.text-cardapio{
+    position: absolute;
+    right: 39.7%;
+    top: 2.6%;
+
+    
+}
+
+.notification{
+
+    position: absolute;
+    left: 86%;
+    top: 2.6%;
+    
+}
+
+.bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #FBAF02;
+}
+
+.text-cardapio{
+    position: absolute;
+    right: 36%;
+    top: 2.6%;
+
+    
+}
+
+.card{
+        position: absolute;
+        right: 3%;
+        top: 25%;    
+}
