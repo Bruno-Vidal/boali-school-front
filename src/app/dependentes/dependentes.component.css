@@ -1,0 +1,79 @@
+.profile{
+    position: absolute;
+    right: 84%;
+    top: 2.6%;
+
+}
+.text-cardapio{
+    position: absolute;
+    right: 39.7%;
+    top: 2.6%;
+
+    
+}
+
+.notification{
+
+    position: absolute;
+    left: 86%;
+    top: 2.6%;
+    
+}
+
+.btn-cardapio{
+    position: absolute;
+    left: 7.5%;
+    top: 10.8%;
+    
+}
+
+.btn-dependentes{
+
+    position: absolute;
+    right: 5.5%;
+    top: 7.5%;
+    
+}
+
+.box-dependentes{
+    position: absolute;
+    left: 5%;
+    top: 24.6%;
+}
+
+.box-dependentes2{
+    position: absolute;
+    left: 5%;
+    top: 54%;
+}
+
+.seta{
+    position: absolute;
+    left: 50%;
+    top: 46%;
+}
+
+
+.seta2{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+}
+
+.profile-kids{
+    position: absolute;
+    left: 43%;
+    top: 22%;
+}
+
+.profile-kids2{
+    position: absolute;
+    left: 43%;
+    top: 49%;
+}
+
+.add-profile{
+    position: absolute;
+    left: 5%;
+    top: 79%;
+}

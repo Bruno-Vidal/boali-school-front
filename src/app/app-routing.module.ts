@@ -4,6 +4,8 @@ import { LoginComponent } from './login/login.component';
 import { IntroComponent } from './intro/intro.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
+import { DependentesComponent } from './dependentes/dependentes.component';
+import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
 
 const routes: Routes = [
   {
@@ -30,6 +32,16 @@ const routes: Routes = [
   {
     path: 'cardapio',
     component: CardapioComponent
+  },
+
+  {
+    path: 'dependentes',
+    component: DependentesComponent
+  },
+
+  {
+    path: 'dependentes-open',
+    component: DependenteOpenComponent
   }
 ]
 

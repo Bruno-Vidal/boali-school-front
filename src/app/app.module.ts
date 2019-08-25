@@ -9,6 +9,8 @@ import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { IntroComponent } from './intro/intro.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
+import { DependentesComponent } from './dependentes/dependentes.component';
+import { DependenteOpenComponent } from './dependente-open/dependente-open.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardapioComponent } from './cardapio/cardapio.component';
     LoginComponent,
     CadastroComponent,
     IntroComponent,
-    CardapioComponent
+    CardapioComponent,
+    DependentesComponent,
+    DependenteOpenComponent
   ],
   imports: [
     BrowserModule,
