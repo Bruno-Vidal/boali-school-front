@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { CadastrodependenteComponent } from './cadastro-dependente/cadastrodependente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CadastrarComponent
+    CadastrarComponent,
+    CadastrodependenteComponent
   ],
   imports: [
     BrowserModule,
